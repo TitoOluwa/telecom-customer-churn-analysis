@@ -6,11 +6,13 @@ This project investigates customer churn patterns in a telecommunications compan
 
 The goal is to identify customer groups associated with higher churn, understand the reasons customers report for leaving, and develop evidence-based recommendations to support customer retention.
 
+
 ## Business Problem
 
 Customer churn can affect revenue, customer relationships, and long-term business growth. The company needs to understand which customer groups have higher churn rates and what reported issues may contribute to customers leaving.
 
 This project uses exploratory data analysis and SQL to investigate those patterns and translate the findings into practical business recommendations.
+
 
 ## Tools Used
 
@@ -21,6 +23,7 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 - **Jupyter Notebook:** Analysis workflow and documentation
 - **GitHub:** Project version control and presentation
 
+
 ## Project Workflow
 
 1. Audited the dataset for missing values, duplicates, and potential data-quality issues.
@@ -29,6 +32,7 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 4. Used SQL to analyze churn across customer segments and reported churn reasons.
 5. Created visualizations to communicate the main findings.
 6. Developed business recommendations and documented analytical limitations.
+
 
 
 ## Key Findings
@@ -56,6 +60,7 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 Customers who churned had higher average monthly charges than customers who stayed within each of the three contract types. This is an observed association, not proof that higher charges caused churn.
 
 
+
 ## Visualizations
 
 ### Customer Status Distribution
@@ -64,11 +69,13 @@ Customers who churned had higher average monthly charges than customers who stay
 
 This chart shows the distribution of customers who stayed, churned, or joined.
 
+
 ### Churn Rate by Contract Type
 
 ![Churn Rate by Contract](images/02_churn_rate_by_contract.png)
 
 Month-to-month customers had a substantially higher churn rate than customers on one-year or two-year contracts.
+
 
 ### Churn Rate by Tenure
 
@@ -76,11 +83,14 @@ Month-to-month customers had a substantially higher churn rate than customers on
 
 Customers with 0–12 months of tenure had the highest observed churn rate among the tenure groups.
 
+
 ### Top Reported Churn Reasons
 
 ![Top Churn Reasons](images/04_top_churn_reasons.png)
 
 Competitor-related reasons were the largest category of reported churn reasons in the dataset.
+
+
 
 ## Business Recommendations
 
@@ -90,6 +100,7 @@ Competitor-related reasons were the largest category of reported churn reasons i
 4. **Investigate pricing concerns:** Review billing clarity, long-distance charges, and extra-data charges.
 5. **Measure retention initiatives:** Track outcomes to determine whether proposed changes actually improve customer retention.
 
+
 ## Limitations
 
 - This is descriptive analysis and does not establish causation.
@@ -98,8 +109,10 @@ Competitor-related reasons were the largest category of reported churn reasons i
 - Some monthly charge values were negative and were treated as missing because their cause could not be established from the available data.
 
 
+
 ## Conclusion
 
 The analysis identified higher observed churn among month-to-month customers and customers with shorter tenure. Competitor-related reasons were the largest reported churn category. These findings suggest that early customer experience, competitive positioning, service quality, and perceived value deserve further investigation.
 
 The results provide a starting point for targeted retention initiatives, which should be evaluated using measurable business outcomes.
+
