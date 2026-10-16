@@ -56,3 +56,50 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 Customers who churned had higher average monthly charges than customers who stayed within each of the three contract types. This is an observed association, not proof that higher charges caused churn.
 
 
+## Visualizations
+
+### Customer Status Distribution
+
+![Customer Status Distribution](images/01_customer_status_distribution.png)
+
+This chart shows the distribution of customers who stayed, churned, or joined.
+
+### Churn Rate by Contract Type
+
+![Churn Rate by Contract](images/02_churn_rate_by_contract.png)
+
+Month-to-month customers had a substantially higher churn rate than customers on one-year or two-year contracts.
+
+### Churn Rate by Tenure
+
+![Churn Rate by Tenure](images/03_churn_rate_by_tenure.png)
+
+Customers with 0–12 months of tenure had the highest observed churn rate among the tenure groups.
+
+### Top Reported Churn Reasons
+
+![Top Churn Reasons](images/04_top_churn_reasons.png)
+
+Competitor-related reasons were the largest category of reported churn reasons in the dataset.
+
+## Business Recommendations
+
+1. **Focus on newer customers:** Investigate onboarding and early service experiences, especially for customers with month-to-month contracts.
+2. **Review competitive positioning:** Compare available devices, data allowances, internet speeds, and offers with those of competitors.
+3. **Improve customer support:** Investigate support-related complaints and identify opportunities to improve service interactions.
+4. **Investigate pricing concerns:** Review billing clarity, long-distance charges, and extra-data charges.
+5. **Measure retention initiatives:** Track outcomes to determine whether proposed changes actually improve customer retention.
+
+## Limitations
+
+- This is descriptive analysis and does not establish causation.
+- Customer-reported churn reasons reflect the reasons recorded in the dataset and may not explain every factor behind a customer's decision.
+- The analysis uses the available dataset; results may not generalize to other telecommunications companies or future periods.
+- Some monthly charge values were negative and were treated as missing because their cause could not be established from the available data.
+
+
+## Conclusion
+
+The analysis identified higher observed churn among month-to-month customers and customers with shorter tenure. Competitor-related reasons were the largest reported churn category. These findings suggest that early customer experience, competitive positioning, service quality, and perceived value deserve further investigation.
+
+The results provide a starting point for targeted retention initiatives, which should be evaluated using measurable business outcomes.
