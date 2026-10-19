@@ -1,8 +1,8 @@
-# Telecom Customer Churn Analysis
+# Maven Telecom Customer Churn Analysis
 
 ## Project Overview
 
-This project investigates customer churn patterns in a telecommunications company dataset containing 7,043 customer records. Using Python, SQL, and data visualization, the analysis explores customer status, contract types, tenure, monthly charges, and reported reasons for churn.
+This project investigates customer churn patterns in a telecommunications company dataset containing 7,043 customer records. Using Python, SQL, and Matplotlib for data visualization, the analysis explores customer status, contract types, tenure, monthly charges, and reported reasons for churn.
 
 The goal is to identify customer groups associated with higher churn, understand the reasons customers report for leaving, and develop evidence-based recommendations to support customer retention.
 
@@ -19,12 +19,15 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 - **Python:** Data cleaning, exploratory data analysis, and visualization
 - **pandas:** Data manipulation and analysis
 - **Matplotlib:** Charts and visualizations
-- **SQL (SQLite):** Customer segmentation, aggregations, and churn-rate calculations
+- **SQL (MySQL):** Customer segmentation, aggregations, and churn-rate calculations
 - **Jupyter Notebook:** Analysis workflow and documentation
 - **GitHub:** Project version control and presentation
 
 
 ## Project Workflow
+
+<img width="2378" height="266" alt="telecom churn workflow" src="https://github.com/user-attachments/assets/0ef060d2-65e8-4955-91fb-6cf6d5cc5826" />
+
 
 1. Audited the dataset for missing values, duplicates, and potential data-quality issues.
 2. Cleaned missing values where the dataset's business definitions supported a correction.
