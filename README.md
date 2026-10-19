@@ -1,4 +1,4 @@
-# Maven Telecom Customer Churn Analysis
+# Telecom Customer Churn Analysis
 
 ## Project Overview
 
@@ -28,6 +28,7 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 
 ![telecom churn workflow](images/00_telecom_churn_workflow.png)
 
+ 
 1. Audited the dataset for missing values, duplicates, and potential data-quality issues.
 2. Cleaned missing values where the dataset's business definitions supported a correction.
 3. Explored customer status, tenure, contract types, services, and monthly charges.
@@ -59,7 +60,7 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 
 ### 4. Monthly Charges
 
-Customers who churned had higher average monthly charges than customers who stayed within each of the three contract types. This is an observed association, not proof that higher charges caused churn.
+Customers who churned had higher average monthly charges than customers who stayed within each of the three contract types.
 
 
 
@@ -71,6 +72,7 @@ Customers who churned had higher average monthly charges than customers who stay
 
 This chart shows the distribution of customers who stayed, churned, or joined.
 
+   
 
 ### Churn Rate by Contract Type
 
@@ -78,6 +80,7 @@ This chart shows the distribution of customers who stayed, churned, or joined.
 
 Month-to-month customers had a substantially higher churn rate than customers on one-year or two-year contracts.
 
+   
 
 ### Churn Rate by Tenure
 
@@ -85,6 +88,7 @@ Month-to-month customers had a substantially higher churn rate than customers on
 
 Customers with 0–12 months of tenure had the highest observed churn rate among the tenure groups.
 
+   
 
 ### Top Reported Churn Reasons
 
@@ -105,7 +109,6 @@ Competitor-related reasons were the largest category of reported churn reasons i
 
 ## Limitations
 
-- This is descriptive analysis and does not establish causation.
 - Customer-reported churn reasons reflect the reasons recorded in the dataset and may not explain every factor behind a customer's decision.
 - The analysis uses the available dataset; results may not generalize to other telecommunications companies or future periods.
 - Some monthly charge values were negative and were treated as missing because their cause could not be established from the available data.
