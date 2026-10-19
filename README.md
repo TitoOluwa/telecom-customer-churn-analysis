@@ -26,8 +26,7 @@ This project uses exploratory data analysis and SQL to investigate those pattern
 
 ## Project Workflow
 
-<img width="2378" height="266" alt="telecom churn workflow" src="https://github.com/user-attachments/assets/0ef060d2-65e8-4955-91fb-6cf6d5cc5826" />
-
+![telecom churn workflow](images/00_telecom_churn_workflow.png)
 
 1. Audited the dataset for missing values, duplicates, and potential data-quality issues.
 2. Cleaned missing values where the dataset's business definitions supported a correction.
