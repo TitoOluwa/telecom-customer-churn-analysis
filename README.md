@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project investigates customer churn patterns in a telecommunications company dataset containing 7,043 customer records. Using Python, SQL, and Matplotlib for data visualization, the analysis explores customer status, contract types, tenure, monthly charges, and reported reasons for churn.
+In this project, I investigated customer churn patterns in a telecommunications company dataset containing 7,043 customer records. Using Python, SQL, and Matplotlib for data visualization, the analysis explores customer status, contract types, tenure, monthly charges, and reported reasons for churn.
 
 The goal is to identify customer groups associated with higher churn, understand the reasons customers report for leaving, and develop evidence-based recommendations to support customer retention.
 
